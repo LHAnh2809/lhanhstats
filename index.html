@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Rise of Kingdom bots | We provide Rise of Kingdom bots | DKP tracker bot | Auto title giver bot | Discord stats bot">
+    <meta name="keywords" content="Rise of Kingdom bot, Discord bot, DKP tracker, Auto title bot, Gaming statistics bot">
+    <meta name="og:title" content="Rise of Kingdom Bots">
+    <meta name="og:description" content="Automate your gameplay with powerful bots for Rise of Kingdom. Get DKP tracking, auto title assignment, and Discord stats tracking.">
+    <meta name="og:image" content="URL_TO_YOUR_IMAGE">
+    <meta name="og:url" content="YOUR_WEBSITE_URL">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Rise of Kingdom Bots & Automation">
+    <meta name="twitter:description" content="Track DKP, auto-assign titles, and get real-time Discord stats with our advanced gaming bots.">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/logo2.png">
+
+    <title>Bảng Giá Dịch Vụ</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f8f8f8;
+            padding-bottom: 80px;
+        }
+        
+        .card p {
+            text-align: left;
+            margin-left: 10px;
+            /* Điều chỉnh khoảng cách theo ý muốn */
+        }
+        
+        .container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 50px;
+        }
+        
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+        }
+        
+        .card h2 {
+            color: #333;
+        }
+        
+        .price {
+            font-size: 24px;
+            color: #007bff;
+            font-weight: bold;
+        }
+        
+        .button {
+            display: block;
+            background: #007bff;
+            color: white;
+            padding: 10px;
+            margin-top: 10px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        
+        .fixed-bottom-btn {
+            position: fixed;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: #007bff;
+            color: white;
+            padding: 15px 30px;
+            font-size: 18px;
+            border-radius: 8px;
+            text-decoration: none;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        
+        .feature-container {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        .feature-title {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            justify-content: center;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        
+        .feature-card {
+            border: 2px solid #007bff;
+            border-radius: 15px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .feature-icon {
+            font-size: 30px;
+            margin-bottom: 10px;
+        }
+        
+        .image-gallery {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+        
+        .image-gallery img {
+            width: 300px;
+            height: auto;
+            border-radius: 10px;
+            border: 2px solid #007bff;
+            cursor: pointer;
+            transition: transform 0.3s;
+        }
+        
+        .image-gallery img:hover {
+            transform: scale(1.05);
+        }
+        /* Modal (nền tối) */
+        
+        .modal {
+            display: none;
+            /* Ẩn mặc định */
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+            justify-content: center;
+            align-items: center;
+        }
+        /* Ảnh phóng to */
+        
+        .modal.hidden {
+            display: none;
+        }
+        
+        .modal-content {
+            max-width: 80%;
+            max-height: 80%;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(255, 255, 255, 0.3);
+        }
+        /* Nút đóng */
+        
+        .close {
+            position: absolute;
+            top: 20px;
+            right: 30px;
+            font-size: 40px;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        
+        .close:hover {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Service Pricing</h1>
+    <div class="container">
+        <div class="card">
+            <h2>Automated Data Scanning</h2>
+            <p>Self-hosted</p>
+            <p class="price">$13 / month</p>
+            <p class="price">$19 / 2 months</p>
+            <p class="price">$60 / lifetime</p>
+        </div>
+
+        <div class="card">
+            <h2>Automated Title Assignment</h2>
+            <p>Cloud Storage</p>
+            <p class="price">$20 / month</p>
+            <p>Self-hosted</p>
+            <p class="price">$13 / month</p>
+            <p class="price">$60 / lifetime</p>
+        </div>
+
+        <div class="card">
+            <h2>Discord Statistics Bot</h2>
+            <p>Cloud Storage</p>
+            <p class="price">$12 / season</p>
+            <p>Customizable Data</p>
+        </div>
+
+        <div class="card">
+            <h2>Looker Studio Statistics</h2>
+            <p>Cloud Storage</p>
+            <p class="price">$9 / season</p>
+            <p>Customizable Data</p>
+        </div>
+    </div>
+    <div class="feature-container">
+        <h2 class="feature-title">FEATURE DETAILS</h2>
+        <h3><span style="color: #007bff; font-weight: bold;">AUTOMATED</span> DATA SCANNING</h3>
+
+        <div class="feature-grid">
+            <div class="feature-card"><span class="feature-icon">🔄</span><br>Kingdom Scanning</div>
+            <div class="feature-card"><span class="feature-icon">⚡</span><br>KVK Dkp Scanning</div>
+            <div class="feature-card"><span class="feature-icon">👍</span><br>Inactive Player Detection</div>
+            <div class="feature-card"><span class="feature-icon">⏳</span><br>Dkp Points</div>
+            <div class="feature-card"><span class="feature-icon">📌</span><br>Multi-Kingdom Scanning</div>
+            <div class="feature-card"><span class="feature-icon">🚀</span><br>Unlimited Scanning</div>
+            <div class="feature-card"><span class="feature-icon">🔄</span><br>KVK Sheet Comparison</div>
+            <div class="feature-card"><span class="feature-icon">⚡</span><br>Kingdom Honor Scanning</div>
+        </div>
+    </div>
+
+    <div class="image-gallery">
+        <img src="images/data1.png" alt="Screenshot 1" class="zoomable" data-src="images/data1.png">
+        <img src="images/data2.png" alt="Screenshot 2" class="zoomable" data-src="images/data2.png">
+        <img src="images/data3.png" alt="Screenshot 3" class="zoomable" data-src="images/data3.png">
+    </div>
+
+    <div class="feature-container">
+        <h2 class="feature-title">FEATURE DETAILS</h2>
+        <h3><span style="color: #007bff; font-weight: bold;">AUTOMATED</span> TITLE ASSIGNMENT</h3>
+
+        <div class="feature-grid">
+            <div class="feature-card"><span class="feature-icon">🔄</span><br>Title Giver for Discord</div>
+            <div class="feature-card"><span class="feature-icon">⚡</span><br>Admin Commands</div>
+            <div class="feature-card"><span class="feature-icon">👍</span><br>Scheduled Title Assignment</div>
+            <div class="feature-card"><span class="feature-icon">⏳</span><br>Lock/Unlock Titles</div>
+            <div class="feature-card"><span class="feature-icon">📌</span><br>24/7 Service</div>
+            <div class="feature-card"><span class="feature-icon">🚀</span><br>Bot Feature Updates</div>
+            <div class="feature-card"><span class="feature-icon">🔄</span><br>Queue System</div>
+            <div class="feature-card"><span class="feature-icon">⚡</span><br>Quick Title Calling</div>
+        </div>
+    </div>
+
+    <div class="image-gallery">
+        <img src="images/title1.png" alt="Screenshot 1" class="zoomable" data-src="images/title1.png">
+        <img src="images/title2.png" alt="Screenshot 2" class="zoomable" data-src="images/title1.png">
+    </div>
+
+    <div class="feature-container">
+        <h2 class="feature-title">FEATURE DETAILS</h2>
+        <h3><span style="color: #007bff; font-weight: bold;">DISCORD BOT</span> STATISTICS</h3>
+
+        <div class="feature-grid">
+            <div class="feature-card"><span class="feature-icon">🔄</span><br>Discord Data</div>
+            <div class="feature-card"><span class="feature-icon">⚡</span><br>Admin Commands</div>
+            <div class="feature-card"><span class="feature-icon">👍</span><br>Quick Data Check</div>
+            <div class="feature-card"><span class="feature-icon">📌</span><br>24/7 Service</div>
+            <div class="feature-card"><span class="feature-icon">⚡</span><br>Top Rankings Check: Kill, Dead</div>
+            <div class="feature-card"><span class="feature-icon">⚡</span><br>Support Kingdom-based Data Statistics</div>
+        </div>
+    </div>
+
+    <div class="image-gallery">
+        <img src="images/datadis.png" alt="Screenshot 1" class="zoomable" data-src="images/datadis.png">
+    </div>
+
+    <div class="feature-container">
+        <h2 class="feature-title">FEATURE DETAILS</h2>
+        <h3><span style="color: #007bff; font-weight: bold;">LOOKER STUDIO</span> STATISTICS</h3>
+
+        <div class="feature-grid">
+            <div class="feature-card"><span class="feature-icon">🔄</span><br>Web Data</div>
+            <div class="feature-card"><span class="feature-icon">👍</span><br>Quick Data Check</div>
+            <div class="feature-card"><span class="feature-icon">📌</span><br>24/7 Service</div>
+            <div class="feature-card"><span class="feature-icon">⚡</span><br>Kingdom Data Check</div>
+            <div class="feature-card"><span class="feature-icon">⚡</span><br>Tracking Charts</div>
+            <div class="feature-card"><span class="feature-icon">⚡</span><br>Support Kingdom-based Data Statistics</div>
+        </div>
+    </div>
+
+    <div class="image-gallery">
+        <img src="images/datalook1.png" alt="Screenshot 1" class="zoomable" data-src="images/datalook1.png">
+        <img src="images/datalook2.png" alt="Screenshot 2" class="zoomable" data-src="images/datalook2.png">
+        <img src="images/datalook3.png" alt="Screenshot 3" class="zoomable" data-src="images/datalook3.png">
+    </div>
+    <!-- Overlay để hiển thị ảnh phóng to -->
+    <div id="image-modal" class="modal">
+        <span class="close">&times;</span>
+        <img id="modal-image" class="modal-content">
+    </div>
+
+
+
+    <a href="https://discord.gg/sVhDxxfS" class="fixed-bottom-btn">Buy now</a>
+
+</body>
+<script>
+    // Lấy các phần tử
+    const modal = document.getElementById("image-modal");
+    const modalImg = document.getElementById("modal-image");
+    const closeBtn = document.querySelector(".close");
+
+    // Đảm bảo modal bị ẩn khi trang web load
+    modal.classList.add("hidden");
+
+    // Khi click vào ảnh, hiển thị ảnh phóng to
+    document.querySelectorAll(".zoomable").forEach(img => {
+        img.addEventListener("click", function() {
+            modal.classList.remove("hidden");
+            modal.style.display = "flex";
+            modalImg.src = this.dataset.src;
+        });
+    });
+
+    // Khi click nút tắt, đóng modal
+    closeBtn.addEventListener("click", function() {
+        modal.classList.add("hidden");
+        modal.style.display = "none";
+    });
+
+    // Khi click ra ngoài ảnh, đóng modal
+    modal.addEventListener("click", function(event) {
+        if (event.target === modal) {
+            modal.classList.add("hidden");
+            modal.style.display = "none";
+        }
+    });
+</script>
+
+</html>
