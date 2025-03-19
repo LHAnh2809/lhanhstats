@@ -179,12 +179,57 @@
         .close:hover {
             color: red;
         }
+.contact {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 10px;
+    background: #007bff;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.contact a {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    text-decoration: none;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.2);
+    transition: background 0.3s;
+}
+
+.contact a:hover {
+    background: rgba(255, 255, 255, 0.4);
+}
+
+.contact img {
+    width: 20px;
+    height: 20px;
+}
+
     </style>
 </head>
 
 <body>
 
     <h1>Service Pricing</h1>
+    <div class="contact">
+    <a href="https://wa.me/YOUR_WHATSAPP_NUMBER" target="_blank">
+        <img src="images/whatsapp-icon.png" alt="WhatsApp"> WhatsApp
+    </a>
+    <a href="https://zalo.me/YOUR_ZALO_ID" target="_blank">
+        <img src="images/zalo-icon.png" alt="Zalo"> Zalo
+    </a>
+    <a href="https://facebook.com/YOUR_FACEBOOK_PROFILE" target="_blank">
+        <img src="images/facebook-icon.png" alt="Facebook"> Facebook
+    </a>
+</div>
+
     <div class="container">
         <div class="card">
             <h2>Automated Data Scanning</h2>
